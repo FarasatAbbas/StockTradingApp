@@ -222,8 +222,8 @@ public class MainFrame extends JFrame {
     private class RefreshMarketButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
 
-            platform.updateStockPrice("AAPL", 155.0);
-            platform.updateStockPrice("GOOGL", 2850.0);
+            platform.updateStockPrice("AAPL", 165.0);
+            platform.updateStockPrice("GOOGL", 3850.0);
             platform.updateStockPrice("AMZN", 3450.0);
             platform.updateStockPrice("TSLA", 720.0);
             updateDisplay();
