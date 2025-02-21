@@ -225,7 +225,7 @@ public class MainFrame extends JFrame {
             platform.updateStockPrice("AAPL", 165.0);
             platform.updateStockPrice("GOOGL", 3850.0);
             platform.updateStockPrice("AMZN", 3450.0);
-            platform.updateStockPrice("TSLA", 720.0);
+            platform.updateStockPrice("TSLA", 750.0);
             updateDisplay();
         }
     }
